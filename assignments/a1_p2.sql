@@ -65,10 +65,8 @@ SELECT
     c.cust_no, 
     c.cname, 
     c.country_cd
-FROM 
-    customers c
-WHERE 
-    LOWER(c.country_cd) = LOWER(:country_code)
+FROM customers c
+WHERE LOWER(c.country_cd) = LOWER(:country_code)
     AND c.cust_no > 1100;
 
 

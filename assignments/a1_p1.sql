@@ -47,10 +47,8 @@ WHERE o.order_no IS NULL;
 
 -- 4. Find the average size order showing dollars only not a big fraction of cents
 
-SELECT 
-    ROUND(AVG(price * qty * (1 - disc_perc / 100)), 0)
-FROM 
-    orderlines;
+SELECT ROUND(AVG(price * qty * (1 - disc_perc / 100)), 0)
+FROM orderlines;
     
 
 -- 5. Find the average order dollars by sales person for those with an average above 3000
