@@ -1,0 +1,8 @@
+Your submission was successful!
+Course: DBS311NEE.04167.2247, Advanced Database Services
+Assessment: Week 9 Lab06 - PL/SQL part 2
+
+Submission date: 11/16/24, 12:00 AM (Late)
+Submission size: 8.4 KB
+Submitter: Luca Novello
+Confirmation number: ff6fe735988c4020a2d620309a0020d1
